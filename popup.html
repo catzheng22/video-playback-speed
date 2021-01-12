@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        body {
+            background-color: black;
+        }
+        a, currentSpeed {
+            color: lightgrey;
+            margin: 10px;
+            outline: none;
+        }
+        /* TODO: add styling for speed buttons */
+        button {
+            margin: 5px;
+        }
+    </style>
+  </head>
+  <body>
+    <a id="currentSpeed">Playback speed is 1.0</a>
+    <inline>
+        <button id="slowDown" type="button">Slow down</button>
+        <button id="speedUp" type="button">Speed up</button>
+    </inline>
+    <script src="popup.js"></script>
+  </body>
+</html>

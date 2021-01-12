@@ -1,0 +1,15 @@
+{
+    "name": "Video Playback Speed",
+    "version": "1.0",
+    "description": "Personal chrome extension to change the playback speed of an HTML5 video.",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "background": {
+        "scripts": ["controller.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_title": "Change the playback speed of the video on this page",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+}
